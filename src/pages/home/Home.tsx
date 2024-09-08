@@ -8,7 +8,7 @@ export const Home = () => {
     <section className="home">
       <img
         className="home__img"
-        src="src/assets/jakki3.svg"
+        src="https://avatars.githubusercontent.com/u/103477156?v=4"
         alt="Avatar do @dev_jakki"
       />
 
