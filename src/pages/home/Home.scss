@@ -1,0 +1,74 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 15px;
+  margin: 2rem 0 1rem 0;
+
+  h4 {
+    margin-bottom: -5px;
+  }
+
+  &__img {
+    width: 230px;
+    border-radius: 50%;
+  }
+
+  &__name {
+    text-align: center;
+    
+    em { 
+      opacity: .7;
+      letter-spacing: 2px;
+    }
+  }
+
+  &__info {
+    margin: 1rem 0;
+    font-weight: 300;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  &__card {
+    width: 90%;
+    max-width: 600px;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: .5rem;
+    text-align: center;
+
+    p:first-child {
+      font-weight: 700;
+    }
+  }
+
+  &__card.main {
+    background: linear-gradient(45deg, #5e17eb, #3d2b62);
+    border: none;
+    position: relative;
+    animation: 1s ease-in 2s infinite normal both running move;
+  }
+
+  @keyframes move {
+    10%, 90% {
+      transform: translate3d(-1px, 0px, 0px);
+    }
+    20%, 80% {
+        transform: translate3d(2px, 0px, 0px);
+    }
+    30%, 50%, 70% {
+        transform: translate3d(-4px, 0px, 0px);
+    }
+    40%, 60% {
+        transform: translate3d(4px, 0px, 0px);
+    }
+  }
+
+  &__contact {
+    font-size: 1.6rem;
+    display: flex;
+    column-gap: 1.6rem;
+    margin-top: 1.5rem;
+  }
+}
