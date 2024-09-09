@@ -25,12 +25,12 @@ export const Home = () => {
 
       <a 
         className="home__card main"
-        href="https://github.com/jackcielf" 
+        href="https://sandwiche.me/devjakki" 
         target="_blank" 
         rel="noopener noreferrer"
       >
         <p>✨ Itens para o setup ✨</p>
-        <p>Itens que podem estar faltando no seu setup!</p>
+        <span>Itens que podem estar faltando no seu setup!</span>
       </a>
 
       <h4>
@@ -44,7 +44,7 @@ export const Home = () => {
         rel="noopener noreferrer"
       >
         <p>Assine a Rocketseat (86% OFF) 🚀</p>
-        <p>Conteúdos tech feitos com estilo!</p>
+        <span>Trilhas de React, Node.js, Python, Java e muito mais!</span>
       </a>
 
       <a 
@@ -54,7 +54,7 @@ export const Home = () => {
         rel="noopener noreferrer"
       >
         <p>Aprenda inglês (82% OFF)</p>
-        <p>Tenha mais oportunidades na gringa com um curso vitalício!</p>
+        <span>Tenha mais oportunidades na gringa com um curso vitalício!</span>
       </a>
 
       <div className="home__contact">
